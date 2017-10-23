@@ -1,0 +1,38 @@
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background: #eee;
+}
+
+th {
+    border-bottom: 1px solid #888;
+}
+
+td {
+    border-bottom: 1px solid #eee;
+}
+
+input {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.content {
+    display: inline-block;
+    width: 80%;
+    margin-left: -4px;
+    vertical-align: top;
+}
